@@ -6,6 +6,9 @@
 %(scriptName)s loads a .msh (gmsh) 2D file and creates a TiKZ 2D plot of the mesh.
 The output file name is chosen by default as the same as the input with the suffix
 replaced by ".tikz". Colours can be assigned to physical tags by adding the "-c" option.
+
+This script is copyright (c) 2016 and is distributed under the terms of the GNU General Public License (GPL) (version 3, with an exception to allow for easier linking with external libraries). 
+http://www.gnu.org/licenses/gpl-3.0.en.html
 """
 
 import argparse
